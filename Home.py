@@ -4,7 +4,7 @@ import os
 
 
 st.set_page_config(
-    page_title='Game Tracker', # Title of the page
+    page_title='Game Tracker',
     page_icon='🎮'
 )
 
