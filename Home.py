@@ -8,6 +8,15 @@ st.set_page_config(
     page_icon='🎮'
 )
 
+pages = {
+    "Lists": [
+        st.Page("Filter_Search.py", title="Search by Filter"),
+        st.Page("Test_Page.py", title="Testing"),
+    ]
+}
+
+pg = st.navigation(pages)
+pg.run()
 
 st.sidebar.success('Welcome to the Game Tracker!')
 
